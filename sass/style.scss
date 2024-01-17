@@ -9,6 +9,10 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
+.logo {
+	max-height: 30px
+}
+
 body {
   color: var(--fg);
   font-family: 'PT Serif', 'Garamond', 'Georgia', serif;

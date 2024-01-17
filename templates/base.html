@@ -9,17 +9,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{{ config.title }}</title>
         <link rel="stylesheet" href="{{ get_url(path="style.css", cachebust=true) }}" />
-        <link rel="icon" href="{{ get_url(path="favicon.ico") }}"/>
+        <link rel="icon" type="image/png" href="{{ get_url(path="favicon.png") }}"/>
         <script src="https://kit.fontawesome.com/93866eaaa9.js" crossorigin="anonymous"></script>
     </head>
 
     <nav>
         <div class="nav-left">
-            <ul>
-                <li>
-                    <a href="/" >{{ config.title | lower }}</a>
-                </li>
-            </ul>
+            <a href="/"
+              ><img class="logo" src="{{ get_url(path="favicon.png") }}" alt="" /></a
+            >
         </div>
         <div class="nav-right">
             <ul>
