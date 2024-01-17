@@ -1,5 +1,5 @@
 base_url = "https://ugly2006.com"
-title = "Agora's Blog"
+title = "ugly2006"
 compile_sass = true
 build_search_index = true
 generate_feed = true
@@ -11,4 +11,4 @@ highlight_code = true
 highlight_theme = "css"
 
 [extra]
-author = "Agora"
+author = "ugly2006"
